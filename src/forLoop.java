@@ -1,12 +1,9 @@
 public class forLoop {
     public static void main(String[] args) {
 
-        //robimy pętle
-        for (int i = 0; i <= 15; i++) {
-            System.out.println(i);
-            if (i == 5) {
-                System.out.println("kotek");
-            }
+        String[] catBoard = new String[]{"karmi", "Bubu", "Parker", "Simba", "Tofik"};
+        for (int i = 0; i < catBoard.length; i++) {
+            System.out.println(catBoard[i]);
         }
     }
 
